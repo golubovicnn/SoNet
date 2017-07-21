@@ -1,0 +1,210 @@
+body{
+	background-color: silver;
+	font-family: arial;
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+.content {
+	background-color: red;
+}
+.whiteBox {
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px;
+	padding-left: 15px;		
+	margin-right: 300px;
+	margin-top: 10px;
+	border-radius: 4px 4px 4px 4px;
+	font-family: arial;
+	width:600px;
+			
+}
+#anmelden{
+	margin-top: 10px;
+}
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 10px 0;
+  font-size: 30;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+ 
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.button:hover, .button:focus {
+  background: #179b77;
+}
+
+.button-block {
+  display: block;
+  width: 30%;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.menu{
+	margin-bottom: 0px;
+}
+ul.menu {
+    padding: 0;
+}
+
+ul.menu li {
+    display: inline;
+}
+
+li a {
+    background-color: rgba(19, 35, 47, 0.9);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+
+}
+.active a {
+    background:#179b77;
+    color:white;
+  }
+ul.menu a:hover {
+     background: #179b77;
+      color:white;
+}
+
+textarea {
+	font-family: inherit;
+}
+
+#leftDiv {
+	background-color: silver;
+	width: 30%;
+	float:left;
+	
+}
+
+#leftDiv > div {
+	padding: 6px;
+}
+
+#editPersonal {
+	display: none;
+	padding-right: 5px;
+}
+#editPersonal div {
+	margin-top:5px;
+}
+
+#content {
+	padding-left: 100px;
+}
+.wrapper{
+	padding-top: 30px;
+	content: " ";
+	display: table;
+	width:100%;
+	
+}
+#rightDiv {
+	margin-top: 50px;
+	float: left;
+	width: 69%;
+}
+#rightDiv form {
+	margin-left: 10px;
+}
+	.writePost{
+		width: 100%;
+	}
+	.newPost {
+		margin-bottom: 20px;
+		padding-right: 5px;
+	}
+	
+	.post{
+		background-color:white;
+		color: black;
+		border-radius: 6px 6px 6px 6px;
+		padding: 10px;
+		width: auto;
+		border: 1px solid black;
+		margin-top: 10px;
+	}
+		.post .postText {
+		
+		}
+		.post #postFooter {
+			margin-top:6px;
+		}
+header {
+	background:rgba(19, 35, 47, 0.9);
+	color: white;
+	padding: 20px;
+	border-radius: 4px 4px 4px 4px;
+	font-size: 50px;
+	font-family: Arial;
+}
+p.angemeldetals {
+	color: white;
+	text-decoration: none;
+	text-align:right;
+	margin-top: -20px;
+	margin-right: 120px;
+	
+}
+footer{
+	
+	background-color: silver;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+input{
+	font-style:italic;
+}
+
+#abmelden, .visitLink {
+	color:inherit;
+	text-decoration: inherit;
+}
+
+#abmelden {
+	padding-left:30px;
+}
+#newComment {
+	display:block;
+	padding-right: 5px;
+	margin-top: 15px;
+}
+
+#newComment textarea {
+	width: 100%;
+}
+#menu ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    display: inline-block;
+    padding-right: 50px;
+}
+#menu li {
+    display: inline;
+    list-style: none; 
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 14px;
+    text-decoration: none;
+}
+#menu li a:hover {
+    background-color: #111;
+}
